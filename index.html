@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>appuppu</title>
+<style>
+  :root { --bg:#fbfaf7; --fg:#1d1d1f; --muted:#6b6b70; --line:#e6e3dc; --accent:#c2410c; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141416; --fg:#f2f2f2; --muted:#a1a1a6; --line:#2c2c30; --accent:#fb923c; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:-apple-system,"Hiragino Sans",sans-serif; line-height:1.7; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px 64px; }
+  h1 { font-size:28px; margin:0 0 4px; }
+  h2 { font-size:18px; margin:40px 0 12px; border-bottom:1px solid var(--line); padding-bottom:6px; }
+  p.lead { color:var(--muted); margin:0 0 8px; }
+  ul { list-style:none; padding:0; margin:0; }
+  li { padding:12px 0; border-bottom:1px solid var(--line); }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .name { font-weight:700; }
+  .desc { color:var(--muted); font-size:14px; }
+  footer { margin-top:48px; font-size:13px; color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>appuppu</h1>
+  <p class="lead">個人で作っているアプリと、YouTubeチャンネルの案内です。</p>
+
+  <h2>YouTube チャンネル</h2>
+  <ul>
+    <li><a class="name" href="https://www.youtube.com/@mosukestudio">茂助スタジオ</a>
+      <div class="desc">教科書で名前だけだった世界史の、中身の話を毎日。</div></li>
+    <li><a class="name" href="https://www.youtube.com/@thejapanpuzzle">世界を紐解く</a>
+      <div class="desc">統計と研究から、直感に反する事実を毎日。</div></li>
+    <li><a class="name" href="https://www.youtube.com/@algo-gym">アルゴリズム探検隊</a>
+      <div class="desc">毎日使っているのに仕組みを知らないものを、図解で毎日。</div></li>
+    <li><a class="name" href="https://www.youtube.com/@dailyarcadestudio">毎日の煩悩</a>
+      <div class="desc">生きていると避けられない悩みを、心理学と哲学で毎日。</div></li>
+  </ul>
+
+  <h2>アプリ</h2>
+  <ul>
+    <li><a class="name" href="https://apps.apple.com/jp/app/id6759223232">地図コレクション（iOS）</a>
+      <div class="desc">行った場所を写真付きのピンで地図に記録。友だちと地図でつながる。</div></li>
+  </ul>
+
+  <footer>
+    <a href="privacy.html">プライバシーポリシー</a>
+  </footer>
+</main>
+</body>
+</html>
